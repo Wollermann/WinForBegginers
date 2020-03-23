@@ -37,7 +37,7 @@ while True:
             'win + R - служба "Выполнить"',
             "win + I - открывает окно параметров",
             "alt + enter - свойства выбронного элемента",
-            "Больше информации вы можете узнать тут: https://g-ek.com/sochetaniya-klavish-dlya-kalkulyatora-v-windows-10",
+            "Больше информации вы можете узнать тут: https://zen.yandex.ru/media/zhiviprosto/novye-goriachie-klavishi-windows-10-5bc8650f06ef1800a9531ea5?utm_source=serp,
             sep="\n")
         
     #Команда 'Помощь' (по командам бота)
