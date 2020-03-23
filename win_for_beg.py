@@ -42,18 +42,18 @@ while True:
             sep="\n")
 
     #команда для открытия веб-страниц(браузер=default)
-    elif request.lower() == "открой сайт":
+    elif request.lower() == "открыть сайт":
         url = input("Укажите адрес страницы: ")
         webbrowser.open(url)
 
     #команда для поиска в интернете(браузер=default)
-    elif request[:request.find(' ')].lower() == "поиск":
+    elif request[:request.find(' ')].lower() == "поиск" or request.lower() == "поиск":
         webbrowser.open("https://www.google.ru/")
-
+        
     #Команда 'Помощь' (по командам бота)
     elif request.lower() == 'помощь':
             pass
-
+        
 
 
 
