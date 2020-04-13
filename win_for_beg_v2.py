@@ -49,7 +49,7 @@ while True:
                     break
 
     #команда "горячие клавиши"
-    elif request[:request.find(' ')].lower() == "горячие"::
+    elif request[:request.find(' ')].lower() == "горячие":
         print("Список горячих клавиш для Windows 10: ",
             "ctrl + C - скопировать текст",
             "ctrl + V - вставить скопированный текст",
