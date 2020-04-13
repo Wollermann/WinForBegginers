@@ -87,8 +87,7 @@ while True:
         
     else:
         if i == 3:
-            print()
-            print("Спешу вам на помошь!")
+            print("\n", "Спешу вам на помошь!", sep="")
             print("----------------------------")
             print(pd.DataFrame(comands))
             print("----------------------------")
